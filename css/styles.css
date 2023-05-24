@@ -45,6 +45,10 @@ body {
   color: var(--first-main-color);
 }
 
+.header-list-link {
+  color: var(--first-main-color);
+}
+
 .header-list .link:hover,
 .header-list .link:focus {
   color: #404bbf;
