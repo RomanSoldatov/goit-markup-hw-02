@@ -1,5 +1,6 @@
 :root {
   --accent-color: #4d5ae5;
+  --second-accent-color: #404bbf;
   --first-main-color: #2e2f42;
   --second-main-color: #434455;
   --additional-color: #f4f4fd;
@@ -51,7 +52,7 @@ body {
 
 .header-list .link:hover,
 .header-list .link:focus {
-  color: #404bbf;
+  color: var(--second-accent-color);
 }
 
 /* -------------------ADRESS--------- */
@@ -64,7 +65,7 @@ body {
 
 .header-adress .link:hover,
 .header-adress .link:focus {
-  color: #404bbf;
+  color: var(--second-accent-color);
 }
 
 .header-adress-link {
@@ -76,12 +77,11 @@ body {
   background-color: var(--first-main-color);
 }
 .hero-text {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--main-backgroud-color);
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -89,14 +89,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--main-backgroud-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
 
 .hero .link:hover,
 .hero .link:focus {
-  background-color: #404bbf;
+  background-color: var(--second-accent-color);
 }
 
 /* -------------------Advantages--------- */
@@ -116,7 +116,6 @@ body {
 
 /* -------------------What are we doing--------- */
 .title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -131,7 +130,7 @@ body {
 }
 
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--main-backgroud-color);
 }
 
 /* -------------------Footer--------- */
@@ -140,7 +139,6 @@ body {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -171,6 +169,6 @@ body {
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background-color: #404bbf;
+  background-color: var(--second-accent-color);
   color: var(--main-backgroud-color);
 }
